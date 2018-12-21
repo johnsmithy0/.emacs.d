@@ -2,7 +2,6 @@
 ;; ref. https://github.com/emacs-jp/init-loader
 
 ;; Load downloaded init-loader.el
-;; ref. http://tatsuyano.github.io/blog/2013/03/19/emacs-el-get-init-loader/
 (setq load-path (append (list (expand-file-name "~/.emacs.d/init-loader/") ) load-path))
 
 ;; Define directory of init files.
